@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Luma is an independent creative studio crafting digital experiences and brands.">
+  <title>LUMA — Creative Digital Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <a href="#home" class="logo">luma<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact" class="nav-contact">Let's talk ↗</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-top">
+        <span class="eyebrow">
+          <span class="status-dot"></span>
+          Independent creative studio
+        </span>
+        <span class="hero-location">Based everywhere / 2026</span>
+      </div>
+
+      <h1>
+        We make<br>
+        digital feel<br>
+        <span class="hero-highlight">different<span class="star">✳</span></span>
+      </h1>
+
+      <div class="hero-bottom">
+        <p class="hero-description">
+          We build brands and digital experiences that make people
+          stop scrolling, start thinking, and feel something.
+        </p>
+        <a href="#work" class="round-link" aria-label="Explore our work">
+          ↓
+        </a>
+      </div>
+
+      <div class="hero-decoration">L / 01</div>
+    </section>
+
+    <!-- Work -->
+    <section class="work section" id="work">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">Selected projects — 2024/26</span>
+          <h2>Things we've<br>put into the <span>world.</span></h2>
+        </div>
+        <p class="section-note">A few ideas made real.</p>
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="all">All work</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="digital">Digital</button>
+        <button class="filter-btn" data-filter="campaign">Campaigns</button>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card" data-category="branding">
+          <a class="project-image image-1" href="#contact">
+            <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=1200&q=85" alt="Abstract colorful creative artwork">
+            <span class="project-overlay">Explore project ↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Form & Function</h3>
+              <p>Visual identity / Branding</p>
+            </div>
+            <span class="project-number">01</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="digital">
+          <a class="project-image image-2" href="#contact">
+            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1200&q=85" alt="Modern graphic design and branding">
+            <span class="project-overlay">Explore project ↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Good Habit</h3>
+              <p>Digital experience / UI</p>
+            </div>
+            <span class="project-number">02</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="campaign">
+          <a class="project-image image-3" href="#contact">
+            <img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=1200&q=85" alt="Creative lifestyle interior campaign">
+            <span class="project-overlay">Explore project ↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Soft Spaces</h3>
+              <p>Art direction / Campaign</p>
+            </div>
+            <span class="project-number">03</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="branding">
+          <a class="project-image image-4" href="#contact">
+            <img src="https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=85" alt="Minimal product and furniture design">
+            <span class="project-overlay">Explore project ↗</span>
+          </a>
+          <div class="project-info">
+            <div>
+              <h3>Sunday Objects</h3>
+              <p>Brand identity / Art direction</p>
+            </div>
+            <span class="project-number">04</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <span class="eyebrow">A little about us</span>
+
+      <h2>
+        Good design isn't just<br>
+        what you <span class="about-accent">see.</span><br>
+        It's what you <span class="about-accent">feel.</span>
+      </h2>
+
+      <div class="about-bottom">
+        <p>
+          We're a small team of big thinkers, curious makers, and
+          creative minds. We believe the best work happens when
+          strategy meets imagination — and when there's room to
+          try something unexpected.
+        </p>
+        <div class="about-badge">
+          <span>THINK</span>
+          <span class="badge-star">✳</span>
+          <span>MAKE</span>
+          <span class="badge-star">✳</span>
+          <span>REPEAT</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="services">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">What we do</span>
+          <h2>Small team.<br><span>Big ideas.</span></h2>
+        </div>
+      </div>
+
+      <div class="service-list">
+        <div class="service-item">
+          <span class="service-index">01</span>
+          <h3>Brand identity</h3>
+          <p>Strategy, visual identity, art direction, brand systems.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+
+        <div class="service-item">
+          <span class="service-index">02</span>
+          <h3>Digital experiences</h3>
+          <p>Websites, UI/UX design, digital products, development.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+
+        <div class="service-item">
+          <span class="service-index">03</span>
+          <h3>Creative campaigns</h3>
+          <p>Creative concepts, content, campaigns, storytelling.</p>
+          <span class="service-arrow">↗</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+      <span class="eyebrow">Have a good one in mind?</span>
+      <h2>Let's make<br>some <span>noise.</span></h2>
+
+      <a href="mailto:hello@lumastudio.design" class="email-link">
+        hello@lumastudio.design ↗
+      </a>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name"
+              placeholder="John Doe" required minlength="2">
+          </div>
+
+          <div class="form-field">
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email"
+              placeholder="john@email.com" required>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Tell us about your project</label>
+          <textarea id="message" name="message" rows="4"
+            placeholder="I have an idea..." required minlength="10"></textarea>
+        </div>
+
+        <button class="submit-btn" type="submit">
+          Send your message <span>↗</span>
+        </button>
+
+        <p class="form-message" id="formMessage" aria-live="polite"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <a href="#home" class="logo">luma<span>.</span></a>
+    <p>Made with curiosity & a little chaos.</p>
+    <span>© <span id="year"></span> Luma Studio</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
